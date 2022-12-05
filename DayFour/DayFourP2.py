@@ -3,7 +3,7 @@ part2 = []
 part3 = []
 part4 = []
 counter = 0
-with open("E:\Téléchargement\Advent code\DayFour\input.txt", "r") as file:
+with open("DayFour\input.txt", "r") as file:
     for line in file.readlines():
         line = line.replace("\n", "")
         line = line.split(",")

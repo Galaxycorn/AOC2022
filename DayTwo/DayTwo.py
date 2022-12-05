@@ -1,6 +1,6 @@
 score = 0
 
-with open("E:\Téléchargement\inputDayTwo.txt", "r") as file: 
+with open("DayTwo\inputDayTwo.txt", "r") as file: 
     for line in file.readlines():
         '''PART 1 :
         if line[2] == "X": 

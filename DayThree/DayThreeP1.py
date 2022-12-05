@@ -11,7 +11,7 @@ str1 = ""
 str2 = ""
 score = 0
 letter = ""
-with open("E:\Téléchargement\inputDayThree.txt", "r") as file: 
+with open("DayThree\inputDayThree.txt", "r") as file: 
     for line in file.readlines():
         length = len(line)
         line = line.replace("\n", "")         
