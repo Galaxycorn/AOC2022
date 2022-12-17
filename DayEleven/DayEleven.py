@@ -1,5 +1,4 @@
 import re
-import math
 
 def parseMonkeys(f):
     monkeys = [[] for _ in range(15)]
